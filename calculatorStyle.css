@@ -1,0 +1,82 @@
+.main-class{
+}
+.calculator-begin{
+  width: 50%;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.screen{
+  font: monospace;
+  font-size: 40px;
+  flex-basis: 100%;
+  padding: 50px;
+   text-align: right;
+   color: white;
+   background-color: black;
+}
+
+.cancel{
+  background-color: #bababa;
+  font-size: 40px;
+  flex-basis: 50%;
+  padding: 50px;
+   text-align: center;
+   border: 1.5px solid black;
+}
+.cancel:active{
+  background: #a0a0a0;
+}
+/* Trying to impliment 2 classes, numbers and operations*/
+.numbers{
+  padding: 50px;
+  font-size: 40px;
+  flex-basis: 25%;
+  text-align: center;
+  background-color:  #bababa;
+  border: 1.5px solid black;
+}
+.numbers:active{
+  background: #a0a0a0;
+}
+.operations{
+  padding: 50px;
+  font-size: 40px;
+  flex-basis: 25%;
+  text-align: center;
+  background-color:  #ffa642;
+  border: 1.5px solid black;
+}
+.operations:active{
+  background-color: #ff8905;
+}
+.zero{
+  padding: 50px;
+  flex-basis: 75%;
+  font-size: 40px;
+  text-align: center;
+  background-color:   #bababa;
+  border: 1.5px solid black;
+}
+.zero:active{
+  background: #a0a0a0;
+}
+
+.remove-left-border{
+  border-left: 0px;
+}
+
+.remove-right-border{
+  border-right: 0px;
+}
+
+.remote-bot-border{
+  border-bottom: 0px;
+}
