@@ -2,12 +2,10 @@
 }
 .calculator-begin{
   align-items: center;
-  margin-top: 3.125rem;
-  margin-bottom: 3.125rem;
 }
 
 .row{
-  width: 50%;
+  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -17,7 +15,7 @@
   font: monospace;
   font-size: 2.778vw;
   flex-basis: 100%;
-  padding: 3.125rem;
+  padding: 2rem 5px;
    text-align: right;
    color: white;
    background-color: black;
@@ -27,7 +25,7 @@
   background-color: #bababa;
   font-size: 2.778vw;
   flex-basis: 50%;
-  padding: 3.125rem;
+  padding: 2rem 0;
    text-align: center;
    border: 1.5px solid black;
 }
@@ -35,7 +33,7 @@
   background: #a0a0a0;
 }
 .numbers{
-  padding: 3.125rem;
+  padding: 2rem 0;
   font-size: 2.778vw;
   flex-basis: 25%;
   text-align: center;
@@ -46,7 +44,7 @@
   background: #a0a0a0;
 }
 .operations{
-  padding: 3.125rem;
+  padding: 2rem 0;
   font-size: 2.778vw;
   flex-basis: 25%;
   text-align: center;
@@ -57,7 +55,7 @@
   background-color: #ff8905;
 }
 .zero{
-  padding: 3.125rem;
+  padding: 2rem 0;
   flex-basis: 75%;
   font-size: 2.778vw;
   text-align: center;
