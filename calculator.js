@@ -29,11 +29,9 @@ function handleNumber( value ) {
 
 
 function handleSymbol(value){
-    if (value === 'C'){
-        
+    if (value === 'C'){        
     buffer = '';
     display = '0';
-    operation = 'NA'
     displayOnScreen();
     }
     else if (value === '←'){
@@ -48,31 +46,26 @@ function handleSymbol(value){
         buffer = buffer + display + '/';
         display = '0';
         displayOnScreen();
-        console.log(buffer);
     }
     else if (value === 'X' ){
         buffer = buffer + display + '*';
         display = '0';
         displayOnScreen();
-        console.log(buffer);
     }
     else if (value === '-' ){
         buffer = buffer + display + '-';
         display = '0';
         displayOnScreen();
-        console.log(buffer);
     }
     else if (value === '+' ){
         buffer = buffer + display + '+';
         display = '0';
         displayOnScreen();
-        console.log(buffer);
     }
     else{
         buffer=buffer+display;
         display=eval(buffer);
         displayOnScreen();
-        console.log(buffer);
         buffer = '';
     }
 };
